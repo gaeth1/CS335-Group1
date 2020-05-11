@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 7d62e3480b6962844b82ca1c3dab8e87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7433792283360355418
+    second: buttons-pixilate_0
+  - first:
+      213: 5678333101834583782
+    second: buttons-pixilate_1
+  - first:
+      213: -1256481049272254322
+    second: buttons-pixilate_2
+  - first:
+      213: 6183856452656347623
+    second: buttons-pixilate_3
+  - first:
+      213: 2479841028096023035
+    second: buttons-pixilate_4
+  - first:
+      213: 6597531973721614233
+    second: buttons-pixilate_5
+  - first:
+      213: 4242133766243951709
+    second: buttons-pixilate_6
+  - first:
+      213: 1506405762747195476
+    second: buttons-pixilate_7
+  - first:
+      213: -7466299581480641766
+    second: buttons-pixilate_8
+  - first:
+      213: 2096886565105081815
+    second: buttons-pixilate_9
+  - first:
+      213: 727134730890320480
+    second: buttons-pixilate_10
+  - first:
+      213: -2370471304107988580
+    second: buttons-pixilate_11
+  - first:
+      213: -5876483711970627227
+    second: buttons-pixilate_12
+  - first:
+      213: 3405844374209671854
+    second: buttons-pixilate_13
+  - first:
+      213: -8957732204534338363
+    second: buttons-pixilate_14
+  - first:
+      213: -7446407347655654895
+    second: buttons-pixilate_15
+  - first:
+      213: 8102423831161775369
+    second: buttons-pixilate_16
+  - first:
+      213: -1200870885920006993
+    second: buttons-pixilate_17
+  - first:
+      213: 1665996576541047495
+    second: buttons-pixilate_18
+  - first:
+      213: 253268087337827759
+    second: buttons-pixilate_19
+  - first:
+      213: -8703221009086504663
+    second: buttons-pixilate_20
+  - first:
+      213: -809614283326756413
+    second: buttons-pixilate_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buttons-pixilate_0
+      rect:
+        serializedVersion: 2
+        x: 4903
+        y: 2562
+        width: 351
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc796775103db3249bb8eba5356d57b2
+      internalID: -7433792283360355418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_1
+      rect:
+        serializedVersion: 2
+        x: 5366
+        y: 2562
+        width: 354
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937e5f7952f311a478b454216931a9df
+      internalID: 5678333101834583782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_2
+      rect:
+        serializedVersion: 2
+        x: 4406
+        y: 2126
+        width: 368
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4a7a24c2a81e94587b14cbecc5add7
+      internalID: -1256481049272254322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_3
+      rect:
+        serializedVersion: 2
+        x: 4903
+        y: 2126
+        width: 351
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd2ed2f481a02543a8a1306de1738f0
+      internalID: 6183856452656347623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_4
+      rect:
+        serializedVersion: 2
+        x: 5366
+        y: 2126
+        width: 354
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdb2beef025a3941843ba66c89ad7bd
+      internalID: 2479841028096023035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_5
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 1751
+        width: 263
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aba1eb97a099764991d39ae59f2b108
+      internalID: 6597531973721614233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_6
+      rect:
+        serializedVersion: 2
+        x: 4406
+        y: 1692
+        width: 368
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb73f3d3234fb914bb364fa92a19a13b
+      internalID: 4242133766243951709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_7
+      rect:
+        serializedVersion: 2
+        x: 4903
+        y: 1692
+        width: 351
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727ba81e1995cae4e9ad9f34f222a27c
+      internalID: 1506405762747195476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_8
+      rect:
+        serializedVersion: 2
+        x: 5366
+        y: 1692
+        width: 354
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4b0f2217167534ab65bba2f7793185
+      internalID: -7466299581480641766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_9
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 1001
+        width: 533
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15802f04cd0bbef49af15026524b7e59
+      internalID: 2096886565105081815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_10
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 1332
+        width: 533
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab05e63c09efcf4f82e4f54edba94b0
+      internalID: 727134730890320480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_11
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 1226
+        width: 1221
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e859c6feb95749642b7c93a3cef364da
+      internalID: -2370471304107988580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_12
+      rect:
+        serializedVersion: 2
+        x: 4586
+        y: 1182
+        width: 1222
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b711ec57dace0574391336eab94b52a3
+      internalID: -5876483711970627227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 72
+        width: 2362
+        height: 1131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33ab9a2d909ba7478df48f1afbf7940
+      internalID: 3405844374209671854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_14
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 505
+        width: 248
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea37a268fa94138438f307ed64807405
+      internalID: -8957732204534338363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_15
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 626
+        width: 1221
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec10330369a2b624ea5d016562aafb9f
+      internalID: -7446407347655654895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_16
+      rect:
+        serializedVersion: 2
+        x: 4586
+        y: 626
+        width: 1222
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cf972ae61311449bbeb178267ecd76
+      internalID: 8102423831161775369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_17
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 510
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22db99a71938df47849e07205d1c164
+      internalID: -1200870885920006993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_18
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 72
+        width: 1221
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54254439e6f88e4990f889cabb2abf6
+      internalID: 1665996576541047495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_19
+      rect:
+        serializedVersion: 2
+        x: 4586
+        y: 72
+        width: 1222
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34b1c37c7f01904fb9b5ea951faae77
+      internalID: 253268087337827759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_20
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 148
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185661486c394b14896a16a924cc5c8a
+      internalID: -8703221009086504663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons-pixilate_21
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 298
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff57954e33c82424f9025ac2952e78e3
+      internalID: -809614283326756413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
