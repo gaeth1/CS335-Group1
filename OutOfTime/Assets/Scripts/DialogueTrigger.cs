@@ -11,4 +11,25 @@ public class DialogueTrigger : MonoBehaviour
         FindObjectOfType<DialogueManger>().StartDialogue(dialogue);
     }
 
+<<<<<<< HEAD
+=======
+    public void TriggerMessages(){
+        StopAllCoroutines();
+        StartCoroutine(messagesHelper());
+    }
+
+    IEnumerator messagesHelper(){
+        yield return new WaitForSeconds(3);
+        FindObjectOfType<MessagingManger>().StartDialogue(dialogue);
+    }
+    public void TriggerMessages1(){
+        StopAllCoroutines();
+        StartCoroutine(messagesHelper1());
+    }
+    IEnumerator messagesHelper1(){
+        yield return new WaitForSeconds(3);
+        FindObjectOfType<MessagingManger>().StartDialogue1(dialogue);
+    }
+
+>>>>>>> Gaeth-Play
 }

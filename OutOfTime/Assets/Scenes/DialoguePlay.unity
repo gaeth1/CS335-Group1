@@ -756,6 +756,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a248d2eff17243649a89643a9646cb2f, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!114 &1101841189 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7323685120364238503, guid: a248d2eff17243649a89643a9646cb2f,
+    type: 3}
+  m_PrefabInstance: {fileID: 758802230}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a397d72a93f674fb2d52aeb4139902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Gaeth-Play
 --- !u!1 &1246428486
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +802,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 1298010019}
   dialogueText: {fileID: 258297379}
+<<<<<<< HEAD
+=======
+  sceneManger: {fileID: 1101841189}
+>>>>>>> Gaeth-Play
   oceanDialogue: {fileID: 317381650}
   animator: {fileID: 1979923521}
   startButton: {fileID: 666798200}

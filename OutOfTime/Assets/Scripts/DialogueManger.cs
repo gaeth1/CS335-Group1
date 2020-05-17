@@ -7,7 +7,11 @@ public class DialogueManger : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     private Text dialogueT;
+<<<<<<< HEAD
 
+=======
+    public LoadScene sceneManger; 
+>>>>>>> Gaeth-Play
     public Text oceanDialogue;
     public Animator animator;
     private Queue<string> sentances;
@@ -22,7 +26,10 @@ public class DialogueManger : MonoBehaviour
         dialogueT=dialogueText;
         oceanDialogue.gameObject.SetActive(false);
         startButton.onClick.Invoke();
+<<<<<<< HEAD
 
+=======
+>>>>>>> Gaeth-Play
     }
 
     public void StartDialogue(Dialogue dialogue){
@@ -62,8 +69,13 @@ public class DialogueManger : MonoBehaviour
         }
     }
     void EndDialogue(){
+<<<<<<< HEAD
         animator.SetBool("isOpen", false);
         Debug.Log("End");
+=======
+        sceneManger.FadeToLevel(2);
+        
+>>>>>>> Gaeth-Play
     }
 
 }
