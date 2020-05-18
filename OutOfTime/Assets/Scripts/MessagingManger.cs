@@ -12,6 +12,8 @@ public class MessagingManger : MonoBehaviour
 
     public Animator animator;
     public Animator animator1;
+    public Animator optionsAnimator;
+
     // Start is called before the first frame update
     public Queue<string> sentances;
     public Button firstButton;
@@ -71,6 +73,7 @@ public class MessagingManger : MonoBehaviour
 
     void EndDialogue1(){
         animator1.SetBool("isOpen", false);
+        optionsAnimator.SetBool("isOpen", true);
     }
 
 
