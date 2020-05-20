@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Camping.unity
     guid: 4b6583a9d5bb4994e8b48a2deab03603
+  - enabled: 1
+    path: Assets/Scenes/CatScene.unity
+    guid: de5aff9edc0257d4cb0403eaac7b0b3f
   m_configObjects: {}
