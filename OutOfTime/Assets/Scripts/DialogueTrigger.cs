@@ -10,7 +10,15 @@ public class DialogueTrigger : MonoBehaviour
     public void TriggerDialogue(){
         FindObjectOfType<DialogueManger>().StartDialogue(dialogue);
     }
-
+    public void TriggerParty(){
+        FindObjectOfType<PartyDialogue>().StartDialogue(dialogue);
+    }
+    public void TriggerCupGirl(){
+        FindObjectOfType<CupGirl>().StartDialogue(dialogue);
+    }
+    public void TriggerNPC(){
+        FindObjectOfType<NPCDialogue>().StartDialogue(dialogue);
+    }
     public void TriggerMessages(){
         StopAllCoroutines();
         StartCoroutine(messagesHelper());

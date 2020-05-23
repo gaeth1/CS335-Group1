@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PartyDialogue : MonoBehaviour  {
+public class CupGirl : MonoBehaviour  {
     // Start is called before the first frame update
     private Queue<string> sentences; 
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
-    public Button NPC;
 
     void Start()
     {
@@ -45,8 +44,9 @@ public class PartyDialogue : MonoBehaviour  {
         }
     }
     void EndDialogue(){
-        NPC.onClick.Invoke();       
         animator.SetBool("isOpen", false);
+        
+        
     }   
 
 }
