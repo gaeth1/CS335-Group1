@@ -36,5 +36,12 @@ public class DialogueTrigger : MonoBehaviour
         yield return new WaitForSeconds(3);
         FindObjectOfType<MessagingManger>().StartDialogue1(dialogue);
     }
-
+    public void TriggerMessages2(){
+        StopAllCoroutines();
+        StartCoroutine(messagesHelper2());
+    }
+    IEnumerator messagesHelper2(){
+        yield return new WaitForSeconds(3);
+        FindObjectOfType<TextingManger>().StartDialogue1(dialogue);
+    }
 }

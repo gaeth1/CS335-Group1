@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CatScene.unity
     guid: de5aff9edc0257d4cb0403eaac7b0b3f
+  - enabled: 1
+    path: Assets/Scenes/SisterText.unity
+    guid: b152eb77be9b72049be849b44166311c
+  - enabled: 1
+    path: Assets/Scenes/SisterCoffee.unity
+    guid: 9e9d5b954d52c2c499403d2c03a43da5
+  - enabled: 1
+    path: Assets/Scenes/IceCream.unity
+    guid: 96f0c9ce8f52b0840b2faa6fa3c08a31
   m_configObjects: {}

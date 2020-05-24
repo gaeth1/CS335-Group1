@@ -882,7 +882,7 @@ GameObject:
   - component: {fileID: 538993022}
   - component: {fileID: 538993021}
   m_Layer: 5
-  m_Name: Occean thoughts
+  m_Name: OcceanThoughts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -897,7 +897,7 @@ RectTransform:
   m_GameObject: {fileID: 538993019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.468228, y: 4.468228, z: 4.468228}
+  m_LocalScale: {x: 3.4035385, y: 3.4035385, z: 3.4035385}
   m_Children:
   - {fileID: 1226515506}
   m_Father: {fileID: 674906222}
@@ -905,8 +905,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 4.2, y: -318.2}
-  m_SizeDelta: {x: 222.7, y: 106.8}
+  m_AnchoredPosition: {x: -0.6, y: -344.7}
+  m_SizeDelta: {x: 290.6, y: 122.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &538993021
 Animator:
@@ -974,7 +974,7 @@ PrefabInstance:
     - target: {fileID: 5906109082050941552, guid: 215804e84cfcc57489ad7d3b71078e6a,
         type: 3}
       propertyPath: sounds.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5906109082050941552, guid: 215804e84cfcc57489ad7d3b71078e6a,
         type: 3}
@@ -1004,6 +1004,26 @@ PrefabInstance:
     - target: {fileID: 5906109082050941552, guid: 215804e84cfcc57489ad7d3b71078e6a,
         type: 3}
       propertyPath: sounds.Array.data[1].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906109082050941552, guid: 215804e84cfcc57489ad7d3b71078e6a,
+        type: 3}
+      propertyPath: sounds.Array.data[2].name
+      value: Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906109082050941552, guid: 215804e84cfcc57489ad7d3b71078e6a,
+        type: 3}
+      propertyPath: sounds.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: b5c05b333bcceaa499b6db7f19188e11, type: 3}
+    - target: {fileID: 5906109082050941552, guid: 215804e84cfcc57489ad7d3b71078e6a,
+        type: 3}
+      propertyPath: sounds.Array.data[2].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906109082050941552, guid: 215804e84cfcc57489ad7d3b71078e6a,
+        type: 3}
+      propertyPath: sounds.Array.data[2].pitch
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5906109082050941553, guid: 215804e84cfcc57489ad7d3b71078e6a,
@@ -1752,6 +1772,9 @@ MonoBehaviour:
   nameText: {fileID: 598691202}
   dialogueText: {fileID: 1873956172}
   animator: {fileID: 1267267050}
+  occeanThoughtAnimator: {fileID: 538993021}
+  occeanThought: {fileID: 1226515507}
+  sceneManger: {fileID: 1527917860}
 --- !u!4 &878818597
 Transform:
   m_ObjectHideFlags: 0
@@ -2243,8 +2266,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.7}
-  m_SizeDelta: {x: 208.5, y: 91.1}
+  m_AnchoredPosition: {x: 2.8, y: -0}
+  m_SizeDelta: {x: 267.9, y: 106.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1226515507
 MonoBehaviour:
@@ -2266,12 +2289,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 40c256cddef8b0040b9bb34993e29913, type: 3}
-    m_FontSize: 15
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 88
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -2808,6 +2831,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1527917860 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7323685120364238503, guid: a248d2eff17243649a89643a9646cb2f,
+    type: 3}
+  m_PrefabInstance: {fileID: 729762695}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a397d72a93f674fb2d52aeb4139902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1638609937
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,9 @@ public class CupGirl : MonoBehaviour  {
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
+    public Animator occeanThoughtAnimator;
+    public Text occeanThought;
+    public LoadScene sceneManger; 
 
     void Start()
     {
@@ -44,9 +47,17 @@ public class CupGirl : MonoBehaviour  {
         }
     }
     void EndDialogue(){
+        occeanThought.text = "Wow. This is how I chose to spend my last moments. Sitting with strangers in a strange room.";
         animator.SetBool("isOpen", false);
-        
-        
+        occeanThoughtAnimator.SetBool("isOpen", true);
+        StopAllCoroutines();
+        StartCoroutine(wait());
     }   
+
+    IEnumerator wait(){
+        yield return new WaitForSeconds(4);
+        FindObjectOfType<AudioManger>().Play("Text");
+        sceneManger.FadeToLevel(6);
+    }
 
 }
