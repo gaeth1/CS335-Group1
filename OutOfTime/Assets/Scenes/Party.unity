@@ -2141,7 +2141,7 @@ MonoBehaviour:
     - "Yo, if you think about it, isn\u2019t Jesus supposed to come back for the end?
       Like, what if the J-Man pops up to protect humanity? Does that mean there are
       going to be monsters? Is this actually a zombie apocalypse? Am I turning right
-      now? Doe-zzzzzzzzzzzzz. "
+      now? Doe-zzz. "
 --- !u!114 &1125135644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2581,8 +2581,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 547, y: 216}
-  m_SizeDelta: {x: 1066, y: 380.85}
+  m_AnchoredPosition: {x: 539.2, y: 216}
+  m_SizeDelta: {x: 1007.9, y: 380.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363751566
 MonoBehaviour:
@@ -2597,7 +2597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0.23921569, b: 0.8235294, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2734,7 +2734,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b16507e7bd782a447a5e8c61f52568a6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e27ea8d2a9ddef84b860874a4a24ee08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2877,8 +2877,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 551, y: 217}
-  m_SizeDelta: {x: 1066, y: 380.85}
+  m_AnchoredPosition: {x: 547, y: 243}
+  m_SizeDelta: {x: 1033.8, y: 380.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1638609939
 MonoBehaviour:
@@ -2893,7 +2893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0.23921569, b: 0.8235294, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3124,10 +3124,10 @@ MonoBehaviour:
   dialogue:
     name: 
     sentances:
-    - "Hello Hello! Welcome to my humble abode. To be honest, I\u2019m quite surprised
-      you showed up. Well, actually, I\u2019m quite surprised anyone showed up. The
-      threat of imminent death does get people hella lit, am i right? Would you care
-      for a drink?\r\n"
+    - "Chris: Hello Hello! Welcome to my humble abode. To be honest, I\u2019m quite
+      surprised you showed up. Well, actually, I\u2019m quite surprised anyone showed
+      up. The threat of imminent death does get people hella lit, am i right? Would
+      you care for a drink?\r\n"
     - "-Thanks for having me, Chris. I\u2019ll take that drink later, if you don\u2019t
       mind. I\u2019m just gonna take a seat for a bit. I\u2019m so tired."
 --- !u!1 &1873956170
@@ -3164,8 +3164,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 551, y: 217}
-  m_SizeDelta: {x: 1066, y: 380.85}
+  m_AnchoredPosition: {x: 542.9, y: 217}
+  m_SizeDelta: {x: 1017.8, y: 380.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873956172
 MonoBehaviour:
@@ -3180,7 +3180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0.23921569, b: 0.8235294, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
