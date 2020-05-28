@@ -18,7 +18,7 @@ public class Party : MonoBehaviour
     }
 
     IEnumerator wait(){
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         animator.SetBool("isOpen", true);
         thoughtAnimator.SetBool("isOpen", false);
         yield return new WaitForSeconds(1);

@@ -10,7 +10,7 @@ public class PartyDialogue : MonoBehaviour  {
     public Text dialogueText;
     public Animator animator;
     public Button NPC;
-
+    int counter=0;
     void Start()
     {
         sentences=new Queue<string>();
@@ -31,7 +31,12 @@ public class PartyDialogue : MonoBehaviour  {
             EndDialogue();
             return;
         }
+        counter++;
         string sentance =sentences.Dequeue();
+
+        if(counter==2){
+            dialogueText.color = Color.blue;
+        }
         dialogueText.text=sentance;
         StopAllCoroutines();
         StartCoroutine(TypeSentance(sentance));
