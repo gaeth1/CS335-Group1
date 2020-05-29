@@ -16,6 +16,9 @@ public class DialogueTrigger : MonoBehaviour
     public void TriggerCupGirl(){
         FindObjectOfType<CupGirl>().StartDialogue(dialogue);
     }
+    public void TriggerCafe(){
+        FindObjectOfType<CafeManger>().StartDialogue(dialogue);
+    }
     public void TriggerNPC(){
         FindObjectOfType<NPCDialogue>().StartDialogue(dialogue);
     }

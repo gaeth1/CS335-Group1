@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IceCream.unity
     guid: 96f0c9ce8f52b0840b2faa6fa3c08a31
+  - enabled: 1
+    path: Assets/Scenes/CafeScene.unity
+    guid: 53e48b944f7461d4a82bfceb0188817d
+  - enabled: 1
+    path: Assets/Scenes/HitchikeOrSubway.unity
+    guid: 3f622d987416cf34fa05cb62aac3d25f
   m_configObjects: {}
